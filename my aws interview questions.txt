@@ -1,0 +1,25 @@
+
+
+List the components required to build Amazon VPC?
+
+Ans: Subnet, Internet Gateway, NAT Gateway, HW VPN Connection, Virtual Private Gateway, Customer 
+Gateway, Router, Peering Connection, VPC Endpoint for S3, Egress-only Internet Gateway
+
+
+How do you safeguard your EC2 instances running in a VPC?
+
+Ans: Security Groups can be used to protect your EC2 instances in a VPC. We can configure both INBOUND 
+and OUTBOUND traffic in a Security Group which enables secured access to your EC2 instances. Security 
+Group automatically denies any unauthorized access to your EC2 instances.
+
+
+In a VPC how many EC2 instances can you use?
+Ans: Initially you are limited to launch 20 EC2 Instances at one time. Maximum VPC size is 65,536 instances.
+
+
+What are all the different connectivity options available for your VPC?
+Ans: Internet Gateway, Virtual Private Gateway, NAT, EndPoints, Peering Connections.
+
+
+
+
